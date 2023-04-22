@@ -55,6 +55,7 @@
 (setq lsp-completion-enable t)
 
 (setq lsp-lens-enable t)
+(setq lsp-ui-sideline-enable t)
 
 ;; WAKATIME CONFIG
 (use-package wakatime-mode
@@ -74,7 +75,7 @@
 (setq magit-todos-mode t)
 
 ;; PROJECTILE CONFIG
-(setq projectile-project-search-path '("~/Scaletronic/Projects" "~/Mizuho"))
+(setq projectile-project-search-path '("~/Projects"))
 
 ;; EMACS
 (setq mode-require-final-newline t)
