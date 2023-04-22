@@ -61,8 +61,7 @@
   :ensure t
   :if (executable-find "wakatime")
   :init
-  (setq wakatime-api-key (password-store-get "wakatime-api-key")
-        wakatime-cli-path (executable-find "wakatime"))
+  (setq wakatime-cli-path (executable-find "wakatime"))
   :config
   (global-wakatime-mode))
 
