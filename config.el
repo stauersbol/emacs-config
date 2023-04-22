@@ -1,7 +1,7 @@
 ;;; $DOOMDIR/config.el -*- lexical-binding: t; -*-
 
 ;; USER CONFIG
-(setq user-full-name "Lukas Stauersboel"
+(setq user-full-name "Lukas Stauersbøl"
       user-mail-address "lukas.stauersbol@gmail.com")
 
 ;; DOOM CONFIG
@@ -33,7 +33,7 @@
   :custom-face
   (blamer-face ((t :foreground "#7a88cf"
                    :background nil
-                   :height 140
+                   :height 110
                    :italic t)))
   :config
   (global-blamer-mode 1)
