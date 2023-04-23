@@ -78,7 +78,7 @@
 (setq projectile-project-search-path '("~/Projects"))
 
 ;; EMACS
-(setq mode-require-final-newline t)
+(setq require-final-newline t)
 
 ;; LIGATURES
 (use-package fira-code-mode
