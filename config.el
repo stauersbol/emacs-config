@@ -16,6 +16,7 @@
   '(font-lock-keyword-face :slant italic))
 
 (setq doom-theme 'doom-dracula)
+(setq doom-themes-treemacs-theme "doom-colors")
 
 ;; LINE NUMBER CONFIG
 (setq display-line-numbers-type t)
