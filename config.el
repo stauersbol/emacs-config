@@ -85,3 +85,6 @@
 (use-package fira-code-mode
   :custom (fira-code-mode-disabled-ligatures '("[]" "#{" "#(" ":" "#_" "#_(" "x"))
   :hook prog-mode)
+
+;; TREEMACS
+(setq treemacs-git-commit-diff-mode t)
