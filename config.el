@@ -91,3 +91,6 @@
 
 ;; TREEMACS
 (setq treemacs-git-commit-diff-mode t)
+
+;; EVIL NERD COMMENTER
+(evilnc-default-hotkeys)
