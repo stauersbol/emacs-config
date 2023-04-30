@@ -74,6 +74,9 @@
 (setq doom-modeline-time t)
 (setq doom-modeline-time-icon t)
 (setq doom-modeline-github t)
+(setq doom-modeline-indent-info t)
+(setq doom-modeline-icon t)
+(setq doom-modeline-major-mode-icon t)
 
 ;; MAGIT CONFIG
 (setq magit-todos-mode t)
