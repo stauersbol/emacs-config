@@ -53,3 +53,4 @@
 (package! move-text)
 (package! ghub)
 (package! fira-code-mode)
+(package! evil-nerd-commenter)
