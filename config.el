@@ -37,7 +37,7 @@
                    :height 110
                    :italic t)))
   :config
-  (global-blamer-mode 1)
+  (global-blamer-mode t)
   )
 (setq blamer-author-formatter " ✎ %s ")
 (setq blamer-datetime-formatter "[%s]")
@@ -49,6 +49,8 @@
 (setq lsp-ui-mode t)
 (setq lsp-ui-doc-show-with-cursor t)
 (setq lsp-ui-doc-delay 0.2)
+(setq lsp-ui-doc-max-width 140)
+(setq lsp-ui-doc-max-height 160)
 
 (setq lsp-modeline-diagnostics-enable t)
 (setq lsp-headerline-breadcrumb-enable t)
@@ -56,6 +58,7 @@
 (setq lsp-completion-enable t)
 
 (setq lsp-lens-enable t)
+
 (setq lsp-ui-sideline-enable t)
 
 ;; WAKATIME CONFIG
