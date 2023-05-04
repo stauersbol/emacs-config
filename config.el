@@ -93,7 +93,7 @@
   :hook prog-mode)
 
 ;; TREEMACS
-(setq treemacs-git-commit-diff-mode t)
+(setq treemacs-git-commit-diff-mode nil)
 
 ;; EVIL NERD COMMENTER
 (evilnc-default-hotkeys)
