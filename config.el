@@ -54,12 +54,10 @@
 
 (setq lsp-modeline-diagnostics-enable t)
 (setq lsp-headerline-breadcrumb-enable t)
-
 (setq lsp-completion-enable t)
-
 (setq lsp-lens-enable t)
-
 (setq lsp-ui-sideline-enable t)
+(setq lsp-signature-render-documentation nil)
 
 ;; WAKATIME CONFIG
 (use-package wakatime-mode
@@ -77,6 +75,7 @@
 (setq doom-modeline-indent-info t)
 (setq doom-modeline-icon t)
 (setq doom-modeline-major-mode-icon t)
+(setq doom-modeline-buffer-encoding t)
 
 ;; MAGIT CONFIG
 (setq magit-todos-mode t)
@@ -86,6 +85,7 @@
 
 ;; EMACS
 (setq require-final-newline t)
+(setq mode-require-final-newline t)
 
 ;; LIGATURES
 (use-package fira-code-mode
